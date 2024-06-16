@@ -15,7 +15,7 @@ Credits to @salvogiangri (aka @BlackMesa123) for his A54 5G TWRP tree.
 | CPU                          | Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)                        |
 | GPU                          | Mali-G68 MP5                                                                   |
 | Memory                       | 6GB / 8GB RAM (LPDDR4X)                                                        |
-| Shipped OS                   | Android 13 (One UI 5.1)                                                        |
+| Shipped OS                   | Android 13 (One UI 5.1), up to Android 14 (One UI 6.1)                         |
 | Storage                      | 128GB / 256GB (UFS 2.2)                                                        |
 | SIM                          | Single SIM (Nano-SIM, eSIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)       |
 | MicroSD                      | Up to 1TB                                                                      |
