@@ -1,8 +1,11 @@
+
 # TWRP Device Tree for Samsung Galaxy Tab S9 FE 5G
 
 The Galaxy Tab S9 FE 5G (codenamed _"gts9fe"_) is an upper-mid-range tablet from Samsung.
 
 It was announced and released in October 2023.
+
+Credits to @salvogiangri (aka @BlackMesa123) for his A54 5G TWRP tree.
 
 ## Device specifications
 
@@ -38,7 +41,7 @@ This device tree was tested and is fully compatible with [minimal-manifest-twrp]
 2. In the root folder of the fetched repo, clone the device tree:
 
 ```bash
-git clone https://github.com/Fede2782/android_device_samsung_gts9fe.git -b android-12.1 device/samsung/a54x
+git clone https://github.com/Fede2782/android_device_samsung_gts9fe.git -b android-12.1 device/samsung/gts9fe
 ```
 
 3. To build:
