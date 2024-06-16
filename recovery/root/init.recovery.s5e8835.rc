@@ -1,0 +1,19 @@
+import /init.recovery.teegris.rc
+
+on early-init
+    mkdir /mnt/vendor/efs 0771 radio system
+    start extract_ta
+
+on fs
+    wait /dev/block/platform/${ro.boot.boot_devices}
+    symlink /dev/block/platform/${ro.boot.boot_devices} /dev/block/bootdevice
+
+on boot
+    start health-hal-2-1
+
+service extract_ta /vendor/bin/extract_ta.sh
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:recovery:s0
