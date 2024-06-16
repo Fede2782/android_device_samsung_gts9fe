@@ -22,8 +22,8 @@ Credits to @salvogiangri (aka @BlackMesa123) for his A54 5G TWRP tree.
 | Battery                      | 8000mAh Li-Po (non-removable), 25W fast charge                                 |
 | Dimensions                   | 254.3 x 165.8 x 6.5 mm (10.01 x 6.53 x 0.26 in)                                |
 | Display                      | 10.9", 1440 x 2304 pixels, 16:10 ratio, IPS LCD, 90Hz (~249 ppi density)       |
-| Rear Camera 1 (IMX766)       | 8 MP, (wide)                                                                   |
-| Front Camera (IMX616/S5KGD2) | 12 MP, (ultrawide)                                                             |
+| Rear Camera 1 (IMX355)       | 8 MP, (wide)                                                                   |
+| Front Camera (HI1337)        | 12 MP, (ultrawide)                                                             |
 | Fingerprint                  | Goodix GW39B (power button, side-mounted)                                      |
 | Sensors                      | Accelerometer, Gyro, Proximity (virtual), Compass, Hall IC, Grip               |
 | Extras                       | Dual speakers                                                                  |
