@@ -48,6 +48,16 @@ BOARD_MKBOOTIMG_ARGS := \
     --tags_offset 0 \
     --board SRPVI13A001 \
     --header_version 2
+#BOARD_MKBOOTIMG_ARGS := \
+#--header_version 2
+#--os_version 13.0.0
+#--dtb $(DEVICE_PATH)/prebuilt/dtb
+#--kernel_offset 0x10008000
+#--ramdisk_offset 0x10000000
+#--tags_offset 0x10000000
+#--dtb_offset 0x0000000010000000
+#--board SRPWC21B004
+
 BOARD_ROOT_EXTRA_FOLDERS := \
     carrier \
     efs \
@@ -105,9 +115,9 @@ TARGET_USES_MKE2FS := true
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
-TW_MAX_BRIGHTNESS := 510
+TW_MAX_BRIGHTNESS := 256
 TW_DEFAULT_BRIGHTNESS := 128
-TW_FRAMERATE := 120
+TW_FRAMERATE := 90
 TW_Y_OFFSET := 82
 TW_H_OFFSET := -82
 TW_NO_REBOOT_BOOTLOADER := true
