@@ -46,18 +46,8 @@ BOARD_MKBOOTIMG_ARGS := \
     --dtb_offset 0 \
     --os_version 13.0.0 \
     --tags_offset 0 \
-    --board SRPVI13A001 \
+    --board SRPWC21B001 \
     --header_version 2
-#BOARD_MKBOOTIMG_ARGS := \
-#--header_version 2
-#--os_version 13.0.0
-#--dtb $(DEVICE_PATH)/prebuilt/dtb
-#--kernel_offset 0x10008000
-#--ramdisk_offset 0x10000000
-#--tags_offset 0x10000000
-#--dtb_offset 0x0000000010000000
-#--board SRPWC21B004
-
 BOARD_ROOT_EXTRA_FOLDERS := \
     carrier \
     efs \
